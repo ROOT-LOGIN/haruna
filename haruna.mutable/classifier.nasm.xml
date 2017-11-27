@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<classfierCollection>
+    <pseudoCollection>
+        <pseudo val="$$"></pseudo>
+        <pseudo val="DEFAULT"></pseudo>
+        <pseudo val="BITS"></pseudo>
+        <pseudo val="CPU"></pseudo>
+        <pseudo val="SECTION"></pseudo>
+        <pseudo val="GLOBAL"></pseudo>
+
+        <pseudo val="DT"></pseudo>
+        <pseudo val="DO"></pseudo>
+        <pseudo val="DY"></pseudo>
+        <pseudo val="DZ"></pseudo>
+        <pseudo val="RESB"></pseudo>
+        <pseudo val="RESW"></pseudo>
+        <pseudo val="RESD"></pseudo>
+        <pseudo val="RESQ"></pseudo>
+        <pseudo val="REST"></pseudo>
+        <pseudo val="RESO"></pseudo>
+        <pseudo val="RESY"></pseudo>
+        <pseudo val="RESZ"></pseudo>
+        
+        <pseudo val="INCBIN"></pseudo>
+        <pseudo val="TIMES"></pseudo>
+        <pseudo val="SEG"></pseudo>
+        <pseudo val="WRT"></pseudo>
+        <pseudo val="STRICT"></pseudo>
+        
+        <pseudo val="TWORD"></pseudo>
+        <pseudo val="YWORD"></pseudo>
+        <pseudo val="ZWORD"></pseudo>
+    </pseudoCollection>
+    <intrinsicCollection>
+        <intrinsic val="%define"></intrinsic>
+        <intrinsic val="%idefine"></intrinsic>
+        <intrinsic val="%xdefine"></intrinsic>
+        <intrinsic val="%ixdefine"></intrinsic>
+        <intrinsic val="%undef"></intrinsic>
+        <intrinsic val="%assign"></intrinsic>
+        
+        <intrinsic val="%defstr"></intrinsic>
+        <intrinsic val="%deftok"></intrinsic>
+        <intrinsic val="%strcat"></intrinsic>
+        <intrinsic val="%strlen"></intrinsic>
+        <intrinsic val="%substr"></intrinsic>
+
+        <intrinsic val="%ifmacro"></intrinsic>
+        <intrinsic val="%ifctx"></intrinsic>
+        <intrinsic val="%iftoken"></intrinsic>
+        <intrinsic val="%ifempty"></intrinsic>
+        <intrinsic val="%ifenv"></intrinsic>
+        
+        <intrinsic val="%if"></intrinsic>
+        <intrinsic val="%elif"></intrinsic>
+        <intrinsic val="%else"></intrinsic>
+        <intrinsic val="%endif"></intrinsic>
+        <intrinsic val="%comment"></intrinsic>
+        <intrinsic val="%endcomment"></intrinsic>
+        <intrinsic val="%macro"></intrinsic>        
+        <intrinsic val="%imacro"></intrinsic>
+        <intrinsic val="%endmacro"></intrinsic>
+        <intrinsic val="%unmacro"></intrinsic>
+        <intrinsic val="%strut"></intrinsic>
+        <intrinsic val="%endstruct"></intrinsic>
+
+        <intrinsic val="%rep"></intrinsic>
+        <intrinsic val="%include"></intrinsic>
+        <intrinsic val="%pathsearch"></intrinsic>
+        <intrinsic val="%depend"></intrinsic>
+        <intrinsic val="%use"></intrinsic>
+        <intrinsic val="%push"></intrinsic>
+        <intrinsic val="%pop"></intrinsic>
+        <intrinsic val="%repl"></intrinsic>
+
+        <intrinsic val="%arg"></intrinsic>
+        <intrinsic val="%stacksize"></intrinsic>
+
+        <intrinsic val="%error"></intrinsic>
+        <intrinsic val="%warning"></intrinsic>
+        <intrinsic val="%fatal"></intrinsic>
+
+        <intrinsic val="%line"></intrinsic>
+    </intrinsicCollection>
+</classfierCollection>
